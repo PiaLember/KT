@@ -23,6 +23,11 @@
     .form-label {
         margin-bottom: 10px;
     }
+    .wrap {
+        background-color: rgba(252, 250, 250, 0.489);
+        padding: 40px;
+        border-radius: 5px;
+    }
     #password {
         margin-bottom: 20px;
     }
@@ -56,18 +61,21 @@
     </header>  
     <main>
         <img class="beePicture float-end " src="Images/bee-705412_640.png" alt=""> 
-      <div class="row justify-content-center my-5 ">
-        <div class="col-lg-6 ">
-            <form action="">
-                <label for="email" class="form-label ">Email:</label>
-                <input type="email" id="email" placeholder="my@email.com" class="form-control">
-                <label for="Password" class="form-label">Password:</label>
-                <input type="password" id="password" class="form-control">
+        <div class="row justify-content-center my-5 ">
+            <div class="col-md-6 ">
+                <div class="wrap">         
+                    <form action="">
+                        <label for="email" class="form-label ">Email:</label>
+                        <input type="email" id="email" placeholder="my@email.com" class="form-control">
+                        <label for="Password" class="form-label">Password:</label>
+                        <input type="password" id="password" class="form-control">
         
-                <div class="text-center d-grid gap-2">
-                    <button type="submit" class="btn btn-primary">Log In!</button>
+                        <div class="text-center d-grid gap-2">
+                             <button type="submit" class="btn btn-success">Log In!</button>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
     </main>
     <footer class="py-3 my-4">

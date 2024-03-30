@@ -19,6 +19,14 @@
         right: 0;
         z-index: 1;
     }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    .wrap {
+        background-color: rgba(252, 250, 250, 0.489);
+        padding: 40px;
+        border-radius: 5px;
+    }
 </style>
 <body>
     <header>
@@ -48,8 +56,41 @@
       </nav>
     </header>
     <main>
-      <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="" style="height: 100px;">
-    
+      <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="">
+   
+          <div class="row justify-content-center my-5">
+            <div class="col-md-6">
+                <div class="wrap">
+                    <div class="row">
+              
+                         <div>
+                            <h2>CONTACT US</h2>
+                        </div>
+                        <form method="post" data-form-title="CONTACT US">
+                            <input type="hidden" data-form-email="true">
+                            <div class="form-group">
+                            <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                            </div>
+                            <div class="form-group">
+                            <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                            </div>
+                            <div class="form-group">
+                            <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                            </div>
+                            <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                            </div>
+                            <div>
+                            <button type="submit" class="btn  btn-success w-100 ">Send</button>
+                            </div>
+                        </form>
+               
+                    </div>
+                </div>
+            </div>
+          </div>
+       
+
     </main>
     <footer class="py-3 my-4">
         <p class="text-center text-body-secondary ">© 2024 Company, Inc</p>       

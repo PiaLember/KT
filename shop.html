@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <title>Document</title>
 </head>
 <style>
     body {
         background-color: antiquewhite;
     }
+
     .beePicture {
         height: 100px;
         position: absolute;
@@ -19,135 +21,141 @@
         right: 0;
         z-index: 1;
     }
-    .row, .heading {
+
+    .row,
+    .heading {
         margin-top: 40px;
     }
+
     .card {
-        background-color:  rgba(252, 250, 250, 0.489);
+        background-color: rgba(252, 250, 250, 0.489);
     }
 </style>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="logIn.html">Log In</a>
-                  </li>
-                </ul>              
-              </div>
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logIn.html">Log In</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-      </nav>
+        </nav>
     </header>
     <main>
-      <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="" style="height: 100px;">
-      <div class="container-fluid  justify-content-center ">
-        <div class="heading text-center ">
-            <h1 class="text-success display-3 ">Buy yourself a piece of nature</h1>
+        <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="" />
+        <div class="container-fluid  justify-content-center ">
+            <div class="heading text-center ">
+                <h1 class="text-success display-3 ">Buy yourself a piece of nature</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/25/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Branch</h5>
+                            <p class="card-text">€30.99</p>
+                            <a href="#" class="btn btn-sm  btn-outline-success">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/19/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Moss</h5>
+                            <p class="card-text">€51.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/35/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Cactus</h5>
+                            <p class="card-text">€31.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/55/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Leaf</h5>
+                            <p class="card-text">€29.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/80/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Cone</h5>
+                            <p class="card-text">€30.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/82/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Blossom</h5>
+                            <p class="card-text">€51.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/89/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Stalk</h5>
+                            <p class="card-text">€31.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="https://picsum.photos/id/98/400/400" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Straw</h5>
+                            <p class="card-text">€29.99</p>
+                            <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/25/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Branch</h5>
-                      <p class="card-text">€30.99</p>
-                      <a href="#" class="btn btn-sm  btn-outline-success">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/19/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Moss</h5>
-                      <p class="card-text">€51.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/35/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Cactus</h5>
-                      <p class="card-text">€31.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/55/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Leaf</h5>
-                      <p class="card-text">€29.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/80/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Cone</h5>
-                      <p class="card-text">€30.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/82/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Blossom</h5>
-                      <p class="card-text">€51.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/89/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Stalk</h5>
-                      <p class="card-text">€31.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card text-center ">
-                    <img src="https://picsum.photos/id/98/400/400" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Straw</h5>
-                      <p class="card-text">€29.99</p>
-                      <a href="#" class="btn btn-sm btn-outline-success ">Add to cart</a>
-                    </div>                 
-                </div>
-            </div>
-        </div>
-      </div>
     </main>
     <footer class="py-3 my-4">
-        <p class="text-center text-body-secondary ">© 2024 A piece of nature, Inc</p>       
+        <p class="text-center text-body-secondary ">© 2024 A piece of nature, Inc</p>
     </footer>
 </body>
+
 </html>

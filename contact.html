@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <title>Document</title>
 </head>
 <style>
     body {
         background-color: antiquewhite;
     }
+
     .beePicture {
         height: 100px;
         position: absolute;
@@ -19,79 +21,91 @@
         right: 0;
         z-index: 1;
     }
+
     .form-group {
         margin-bottom: 10px;
     }
+
     .wrap {
         background-color: rgba(252, 250, 250, 0.489);
         padding: 40px;
         border-radius: 5px;
     }
 </style>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="logIn.html" >Log In</a>
-                  </li>
-                </ul>              
-              </div>
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logIn.html">Log In</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-      <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="">
-      <div class="container-fluid my-5 ">   
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="wrap">
-                    <div class="row"> 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d519769.4006533525!2d23.579969346875!3d59.41056939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469295a263b1d1a7%3A0xc0bba05e7fe49c56!2sRock%20of%20Tondi!5e0!3m2!1sen!2see!4v1711799106606!5m2!1sen!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="" />
+        <div class="container-fluid my-5 ">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="wrap">
+                        <div class="row">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d519769.4006533525!2d23.579969346875!3d59.41056939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469295a263b1d1a7%3A0xc0bba05e7fe49c56!2sRock%20of%20Tondi!5e0!3m2!1sen!2see!4v1711799106606!5m2!1sen!2see"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <div>
                                 <h3 class="text-success fw-light">CONTACT US</h3>
                             </div>
                             <form method="action" data-form-title="CONTACT US">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                                    <input type="text" class="form-control" name="name" required="" placeholder="Name*"
+                                        data-form-field="Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                                    <input type="email" class="form-control" name="email" required=""
+                                        placeholder="Email*" data-form-field="Email">
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                                    <input type="tel" class="form-control" name="phone" placeholder="Phone"
+                                        data-form-field="Phone">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Message" rows="7"
+                                        data-form-field="Message"></textarea>
                                 </div>
                                 <div class="text-center d-grid gap-2">
                                     <button type="submit" class="btn btn-success">Send!</button>
                                 </div>
-                            </form>              
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-       
+
         </div>
     </main>
     <footer class="py-3 my-4">
-        <p class="text-center text-body-secondary ">© 2024 A piece of nature, Inc</p>       
+        <p class="text-center text-body-secondary ">© 2024 A piece of nature, Inc</p>
     </footer>
 </body>
+
 </html>

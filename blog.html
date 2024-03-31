@@ -19,6 +19,11 @@
         right: 0;
         z-index: 1;
     }
+    .wrapper {
+        background-color: rgba(252, 250, 250, 0.489);
+        padding: 40px;
+        border-radius: 5px;
+    }
 </style>
 <body>
     <header>
@@ -49,9 +54,106 @@
     </header>
     <main>
       <img class="beePicture float-end " src="Images/bee-705412_640.png" alt="" style="height: 100px;">
-      <div class="container-lg my-5">
+        <div class="heading text-center ">
+            <h1 class="text-success display-3 ">Thoughts about nature</h1>
+        </div>
+        <div class="ms-5 my-5 ">
+        <button type="button" class="btn btn-outline-success  " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="title">Share your's</button>
+     </div>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-success " id="exampleModalLabel">Your thoughts</h1>
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       
       </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Title</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Your thoughts:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <button type="submit" class="btn btn-sm btn-success float-end ">Share</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sm  btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="container my-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-success ">Title 1</h1>              
+                    <div class="wrapper">
+                        <div> <img style="float:left;margin-right:10px" src="https://picsum.photos/id/16/200/200"></div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                        <button class="btn btn-sm btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTitle1" aria-expanded="false" aria-controls="collapseExample" style="float:right">
+                            Read more
+                          </button>
+                        <div class="collapse col-md-10 " id="collapseTitle1">                         
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam quis incidunt corrupti molestias magnam saepe magni, 
+                                facilis voluptate officiis eius? Quo numquam aut odit doloremque alias quisquam. Excepturi, labore! Lorem ipsum dolor sit 
+                                amet consectetur adipisicing elit. Iusto earum similique iure quae voluptate quidem, ipsa, culpa inventore atque asperiores, 
+                                commodi ducimus quo perspiciatis. Assumenda nihil error velit voluptatibus doloremque? Lorem ipsum dolor sit amet consectetur,
+                                 adipisicing elit. Quas voluptate voluptatem magnam veniam doloremque odio, vero rem labore sunt laboriosam nesciunt 
+                                 architecto illo praesentium eius earum velit cum iure ab.</p>                          
+                        </div>
+                    </div>
+                    <hr />
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-success ">Title 2</h1>              
+                    <div class="wrapper">
+                        <div> <img style="float:left;margin-right:10px" src="https://picsum.photos/id/11/200/200"></div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                        <button class="btn btn-sm btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTitle2" aria-expanded="false" aria-controls="collapseExample" style="float:right">
+                            Read more
+                          </button>
+                        <div class="collapse col-md-10 " id="collapseTitle2">                         
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam quis incidunt corrupti molestias magnam saepe magni, 
+                                facilis voluptate officiis eius? Quo numquam aut odit doloremque alias quisquam. Excepturi, labore! Lorem ipsum dolor sit 
+                                amet consectetur adipisicing elit. Iusto earum similique iure quae voluptate quidem, ipsa, culpa inventore atque asperiores, 
+                                commodi ducimus quo perspiciatis. Assumenda nihil error velit voluptatibus doloremque? Lorem ipsum dolor sit amet consectetur,
+                                 adipisicing elit. Quas voluptate voluptatem magnam veniam doloremque odio, vero rem labore sunt laboriosam nesciunt 
+                                 architecto illo praesentium eius earum velit cum iure ab.</p>                          
+                        </div>
+                    </div>
+                    <hr />
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-success ">Title 3</h1>              
+                    <div class="wrapper">
+                        <div> <img style="float:left;margin-right:10px" src="https://picsum.photos/id/29/200/200"></div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>
+                        <button class="btn btn-sm btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTitle3" aria-expanded="false" aria-controls="collapseExample" style="float:right">
+                            Read more
+                          </button>
+                        <div class="collapse col-md-10 " id="collapseTitle3">                         
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam quis incidunt corrupti molestias magnam saepe magni, 
+                                facilis voluptate officiis eius? Quo numquam aut odit doloremque alias quisquam. Excepturi, labore! Lorem ipsum dolor sit 
+                                amet consectetur adipisicing elit. Iusto earum similique iure quae voluptate quidem, ipsa, culpa inventore atque asperiores, 
+                                commodi ducimus quo perspiciatis. Assumenda nihil error velit voluptatibus doloremque? Lorem ipsum dolor sit amet consectetur,
+                                 adipisicing elit. Quas voluptate voluptatem magnam veniam doloremque odio, vero rem labore sunt laboriosam nesciunt 
+                                 architecto illo praesentium eius earum velit cum iure ab.</p>                          
+                        </div>
+                    </div>
+                    <hr />
+                </div>       
+            </div>
+     </div>
     </main>
     <footer class="py-3 my-4">
         <p class="text-center text-body-secondary ">© 2024 Company, Inc</p>       
